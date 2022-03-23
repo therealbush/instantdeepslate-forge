@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "instantdeepslate",
+  "version": "${version}",
+  "name": "InstantDeepslate",
+  "description": "A simple client mod that allows you to instamine deepslate.",
+  "authors": [
+    "bush"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/instantdeepslate/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bush.instantdeepslate.InstantDeepslate"
+    ],
+    "modmenu": [
+      "me.bush.instantdeepslate.gui.ModMenuHook"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
